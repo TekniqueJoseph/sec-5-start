@@ -15,3 +15,7 @@
 // console.log('log=>', myName, hobbies)
 
 // greet()
+
+console.log(userName)
+
+var userName = 'Joseph'
