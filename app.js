@@ -1,9 +1,14 @@
-let myName = 'Joseph'
+var myName = 'Joseph'
+
+if (myName === 'Joseph') {
+    let hobbies = ['Sports', 'Cooking']
+    console.log(hobbies)
+}
 
 function greet() {
-    let age = 52;
-    let myName = 'Buju'
-    console.log(myName, age)
+    var age = 52;
+    var myName = 'Buju'
+    console.log(myName, age, hobbies)
 }
 
 console.log(myName)
