@@ -1,15 +1,15 @@
-var myName = 'Joseph'
+let myName = 'Joseph'
 
 if (myName === 'Joseph') {
     let hobbies = ['Sports', 'Cooking']
-    console.log(hobbies)
+    console.log('if', hobbies)
 }
 
 function greet() {
-    var age = 52;
-    var myName = 'Buju'
-    console.log(myName, age, hobbies)
+    let age = 52;
+    let myName = 'Buju'
+    console.log('func=>',myName, age, hobbies)
 }
 
-console.log(myName)
+console.log('log=>', myName, hobbies)
 greet()
