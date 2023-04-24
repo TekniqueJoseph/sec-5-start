@@ -16,8 +16,12 @@
 
 // greet()
 
-var undefined = 5
+// var undefined = 5
+// const userName = 'Joseph'
+// console.log(userName)
 
-console.log(userName)
-const userName = 'Joseph'
 
+const bx = document.querySelector('.box');
+bx.style.margin = "auto";
+bx.style.backgroundColor = "red";
+bx.style.borderRadius = '50%';

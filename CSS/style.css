@@ -4,3 +4,9 @@
 body{
     background-image: linear-gradient(to right, #334d74, #007aa8, #00a7ad, #00cf7c, #a8eb12);
 }
+
+.box{
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+}
