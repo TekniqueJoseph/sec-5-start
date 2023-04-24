@@ -16,6 +16,8 @@
 
 // greet()
 
-console.log(userName)
+var undefined = 5
 
-var userName = 'Joseph'
+console.log(userName)
+const userName = 'Joseph'
+
