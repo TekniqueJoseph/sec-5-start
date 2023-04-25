@@ -29,7 +29,7 @@ bx.style.borderRadius = '50%';
 
 function change() {
     bx.style.backgroundColor = 'black'
-    bx.style.boxShadow = '2px 2px 12px 15px red'
+    bx.style.boxShadow = '2px 2px 12px 16px red'
 }
 
 document.querySelector(".box").addEventListener("click", change);
