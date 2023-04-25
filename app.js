@@ -25,14 +25,7 @@ const bx = document.querySelector('.box');
 bx.style.margin = "auto";
 bx.style.marginTop = "70px"
 bx.style.backgroundColor = "indigo";
-bx.style.borderRadius = '50%';
-
-// function change() {
-//     bx.style.backgroundColor = 'black'
-//     bx.style.boxShadow = '2px 2px 12px 16px red'
-// }
-
-// document.querySelector(".box").addEventListener("click", change);
+bx.style.borderRadius = '49%';
 
 bx.addEventListener('click', function onClick(event) {
     const backgroundColor = bx.style.backgroundColor;
