@@ -27,9 +27,26 @@ bx.style.marginTop = "70px"
 bx.style.backgroundColor = "indigo";
 bx.style.borderRadius = '50%';
 
-function change() {
-    bx.style.backgroundColor = 'black'
-    bx.style.boxShadow = '2px 2px 12px 16px red'
-}
+// function change() {
+//     bx.style.backgroundColor = 'black'
+//     bx.style.boxShadow = '2px 2px 12px 16px red'
+// }
 
-document.querySelector(".box").addEventListener("click", change);
+// document.querySelector(".box").addEventListener("click", change);
+
+bx.addEventListener('click', function onClick(event) {
+    const backgroundColor = bx.style.backgroundColor;
+    if (backgroundColor === 'indigo') {
+      bx.style.backgroundColor = 'gold';
+      bx.style.boxShadow = '2px 2px 12px 16px red'
+  
+      // 👇️ optionally change text color
+      // btn.style.color = 'white';
+    } else {
+      bx.style.backgroundColor = 'indigo';
+      bx.style.boxShadow = 'none'
+  
+      // 👇️ optionally change text color
+      // btn.style.color = 'blue';
+    }
+  })
