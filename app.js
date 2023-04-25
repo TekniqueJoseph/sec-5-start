@@ -23,8 +23,8 @@
 
 const bx = document.querySelector('.box');
 bx.style.margin = "auto";
-bx.style.marginTop = "150px"
-bx.style.backgroundColor = "red";
+bx.style.marginTop = "70px"
+bx.style.backgroundColor = "indigo";
 bx.style.borderRadius = '50%';
 
 function change() {
